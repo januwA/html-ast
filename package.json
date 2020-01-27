@@ -1,0 +1,35 @@
+{
+  "name": "html-ast",
+  "version": "0.0.1",
+  "description": "HTML字符串转化为HTML-AST",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "node ./dev-server.js",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\" \"src/**/*.html\" \"src/**/*.css\" \"src/**/*.json\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "html-ast"
+  ],
+  "author": "Ajanuw",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/lodash": "^4.14.149",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "terser-webpack-plugin": "^2.3.1",
+    "ts-jest": "^24.3.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-copy-file-plugin": "^0.1.5",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
